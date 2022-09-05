@@ -30,12 +30,16 @@ header {
 
 footer {
     background-color: #23272a;
+    padding-bottom: 50px;
 }
 
 li {
     list-style: none;
     color: #ffffff;
     text-decoration: none;
+}
+
+nav li {
     padding: 20px;
 }
 
@@ -59,6 +63,15 @@ h3 {
     font-size: 25px;
     color: #23272a;
     font-weight: 800;
+}
+
+h4 {
+    color: #7289da;
+    font-weight: 800; 
+}
+
+hr {
+    border:  0.1px solid #4a5882;
 }
 
 .container {
@@ -210,10 +223,37 @@ footer h3 {
 .lingua {
     color: #ffffff;
     display: flex;
-    align-items: center;
 }
 
 .lingua p {
     margin-top: 15px;
     margin-left: 10px;
+}
+
+.social {
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.social i {
+    padding-right: 20px;
+}
+
+.section-prodotto, .section-compagnia, .section-risorse, .section-norme {
+    padding-left: 80px;
+}
+
+.container-footer li {
+    line-height: 30px;
+}
+
+.ultimo-container {
+    margin-top: 20px;
+}
+
+.btn-registrati {
+    background-color: #8ea1e1;
+    color: #ffffff;
+    padding: 13px 13px;
 }
