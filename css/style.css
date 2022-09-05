@@ -1,3 +1,4 @@
+/* ! Utility */
 *,
 *:before,
 *:after {
@@ -14,14 +15,14 @@
     clear: both;
 }
 
-.debug {
+/* .debug {
     border: 1px solid black;
     min-height: 100px;
-}
+} */
 
+/* ! CSS Globale */
 body {
     font-family: Helvetica, Arial, sans-serif;
-    
 }
 
 header {
@@ -74,6 +75,7 @@ hr {
     border:  0.1px solid #4a5882;
 }
 
+/* ! CSS delle classi singole */
 .container {
     width: 1170px;
     margin: 0 auto;
@@ -112,6 +114,7 @@ hr {
     align-items: center;
 }
 
+/* ! CSS dell'header */
 header nav.container {
     padding: 10px 0;
 }
@@ -153,6 +156,7 @@ head nav ul {
     margin: 20px;
 }
 
+/* ! CSS delle sezioni del Main */
 .container-section {
     padding-top: 130px;
     padding-bottom: 130px;
@@ -203,6 +207,7 @@ head nav ul {
     margin-bottom: -10px;
 }
 
+/* ! CSS dell Footer */
 footer h3 {
     color: #7289da;
     font-size: 30px;
