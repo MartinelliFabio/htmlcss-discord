@@ -24,6 +24,13 @@
     --hover-black: #36393f;
     --hover-lilla: #7983f5;
     --lightgray: #f6f6f6;
+    --black-login: #36393f;
+    --gray-p-login: #abacb0;
+    --button-login: #5865f2;
+    --button-login-hover: #4752c4;
+    --anchor-login: #0a9ad3;
+    --red: red;
+    --input-login: #202225;
 }
 
 /* .debug {
@@ -314,4 +321,163 @@ footer h3 {
     background-color: #5865f2;
     color: var(--white);
     padding: 13px 13px;
+}
+
+
+/* ! CSS per la pagine del Login */
+#sfondo {
+    background-image: url('../img/sfondo.svg');
+    background-size: cover;
+}
+
+#sfondo h2 {
+    font-size: 25px;
+    color: var(--white);
+}
+
+#sfondo p {
+    color: var(--gray-p-login);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* ! CSS per il box con il form */
+.box {
+    background-color: var(--black-login);
+    margin: 0 auto;
+    min-height: 440px;
+    max-width: 1170px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 30px;
+}
+
+/* ! CSS per la prima colonna con il form */
+.main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-left {
+    width: 70%;
+    height: 100%;
+}
+
+.form-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+
+}
+
+.form-header h2 {
+    padding-bottom: 10px;
+}
+
+.box-text {
+    padding: 10px;
+    border-radius: 3px;
+    width: 90%;
+    border: none;
+    background-color: var(--input-login);
+    color: var(--gray-p-login);
+    font-size: 16px;
+}
+
+input:focus{
+    outline: none;
+}
+
+label {
+    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    color: var(--gray-p-login);
+    font-weight: 500;
+}
+
+span {
+    color: var(--red);
+}
+
+.container-form a {
+    color: var(--anchor-login);
+    text-decoration: none;
+    padding-top: 8px;
+    font-size: 13px;
+}
+
+.container-form a:hover {
+    text-decoration: underline;
+}
+
+.container-form p {
+    font-size: 13px;
+}
+
+#btn-login {
+    background-color: var(--button-login);
+    color: var(--white);
+    border-radius: 5px;
+    width: inherit;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    margin: 13px 0;
+    font-size: medium;
+}
+
+#btn-login:hover {
+    background-color: var(--button-login-hover);
+    text-decoration: none;
+}
+
+/* ! CSS per la colonna con il qr code */
+.form-qrcode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.col-right {
+    width: 30%;
+    height: 100%;
+}
+
+.form-qrcode h2 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.img-qrcode {
+    width: 180px;
+    height: 180px;
+}
+
+.form-qrcode p {
+    font-size: 15px;
+    line-height: 18px;
 }
