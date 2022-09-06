@@ -92,6 +92,11 @@ hr {
     text-decoration: none;
 }
 
+.btn:hover {
+    color: #5865f3;
+    box-shadow: 0 5px 20px rgba(0,0,0,.3);
+}
+
 .btn-accedi {
     padding: 13px 13px;
     color: #23272a;
@@ -103,10 +108,20 @@ hr {
     color: #ffffff;
 }
 
+.btn-gray:hover {
+    color: #ffffff;
+    background-color: #36393f;
+}
+
 .btn-lilla {
-    background-color: #8ea1e1;
+    background-color: #5865f2;
     color: #ffffff;
     margin-top: 25px;
+}
+
+.btn-lilla:hover, .btn-registrati:hover {
+    background-color: #7983f5;
+    color: #ffffff;
 }
 
 .flexbox {
@@ -264,7 +279,7 @@ footer h3 {
 }
 
 .btn-registrati {
-    background-color: #8ea1e1;
+    background-color: #5865f2;
     color: #ffffff;
     padding: 13px 13px;
 }
