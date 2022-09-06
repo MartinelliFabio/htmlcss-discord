@@ -164,6 +164,10 @@ head nav ul {
     padding-bottom: 130px;
 }
 
+.bg-color {
+    background-color: #f6f6f6;
+}
+
 .right {
     max-width: 42%;
     padding-left: 90px;
