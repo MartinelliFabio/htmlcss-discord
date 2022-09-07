@@ -208,8 +208,8 @@ head nav ul {
 .rotate {
     color: var(--lightgray);
     transform: rotate(180deg);
-    padding-bottom: 130px;
-    margin-bottom: -70px;
+    /* padding-bottom: 130px;
+    margin-bottom: -70px; */
 }
 
 .right {
